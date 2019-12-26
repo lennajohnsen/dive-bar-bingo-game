@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dive-bar-bingo-game/static/css/main.c83d34de.chunk.css",
+    "main.js": "/dive-bar-bingo-game/static/js/main.0351bf51.chunk.js",
+    "main.js.map": "/dive-bar-bingo-game/static/js/main.0351bf51.chunk.js.map",
+    "runtime-main.js": "/dive-bar-bingo-game/static/js/runtime-main.4828891b.js",
+    "runtime-main.js.map": "/dive-bar-bingo-game/static/js/runtime-main.4828891b.js.map",
+    "static/js/2.5e477da4.chunk.js": "/dive-bar-bingo-game/static/js/2.5e477da4.chunk.js",
+    "static/js/2.5e477da4.chunk.js.map": "/dive-bar-bingo-game/static/js/2.5e477da4.chunk.js.map",
+    "index.html": "/dive-bar-bingo-game/index.html",
+    "precache-manifest.67b0286fa1327da0eb8583760c30afb7.js": "/dive-bar-bingo-game/precache-manifest.67b0286fa1327da0eb8583760c30afb7.js",
+    "service-worker.js": "/dive-bar-bingo-game/service-worker.js",
+    "static/css/main.c83d34de.chunk.css.map": "/dive-bar-bingo-game/static/css/main.c83d34de.chunk.css.map",
+    "static/js/2.5e477da4.chunk.js.LICENSE": "/dive-bar-bingo-game/static/js/2.5e477da4.chunk.js.LICENSE",
+    "static/media/App.css": "/dive-bar-bingo-game/static/media/drawn-outline-01.f5d147f8.png",
+    "static/media/sign-02.png": "/dive-bar-bingo-game/static/media/sign-02.86b9c927.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4828891b.js",
+    "static/js/2.5e477da4.chunk.js",
+    "static/css/main.c83d34de.chunk.css",
+    "static/js/main.0351bf51.chunk.js"
+  ]
+}
