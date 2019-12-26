@@ -13,18 +13,86 @@
   color: white;
 }
 
-.intro-modalvisible {
-
+.modalDialog {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  color:black;
-  z-index: 2;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  background: rgba(0,0,0,0.8);
+	z-index: 99999;
+  opacity:100;
+}
+
+.modal-content {
+  top: 25vh;
+  width:40vh;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  border-radius: 2%;
+}
+
+.modal-header {
+  /* align-self: flex-start; */
+  height: auto;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 8%;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+.modal-text {
+  height: auto;
+  width: 80%;
+  color: black;
+  text-align: left;
+  font-size: calc(8px + 1vmin);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 8%;
+}
+
+.modal-footer {
+  background-color: lightblue;
+  width: auto;
+  padding: 3%;
+  font-size: calc(10px + 1vmin);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  border-radius: 5% 5%;
+  margin-bottom: 5%;
+  padding-right: 5%;
+  justify-content: center;
+  flex-wrap: nowrap;
+  white-space:nowrap;
+}
+
+.beer-icon {
+  padding-right: 5%;
+  justify-content: center;
+}
+
+.modalDialoginvisible {
+  opacity:0;
+  display:none;
 }
 
 .bar-sign{
-  width:40vh;
-  height:40vh;
+  width:100%;
+  /* height:40vh; */
   object-fit: cover;
-  margin-bottom: 3vh;
+  /* margin-bottom: 3vh; */
 }
 
 /* http://thenewcode.com/438/CSS-Border-Image-Explained */
@@ -64,6 +132,10 @@
   background-color: lightcoral;
 }
 
+.bingo-squaredone > .bingo-text{
+  color:white;
+  font-weight: 100;
+}
 
 .bingo-text{
   font-size: calc(4px + 2vmin);
@@ -79,7 +151,7 @@
 }
 
 .script{
-  font-size: calc(12px + 2vmin);
+  font-size: calc(11px + 2vmin);
   font-family: brush-script-std,sans-serif;
   font-weight: 200;
   font-style: normal;
