@@ -5,9 +5,11 @@ import BarSign from './components/BarSign';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-body">
         <BarSign/>
-        <p className="script">please remember to drink responsibly</p>
+        <p className="script">please remember to drink responsibly
+          <br></br> and support local businesses
+        </p>
       </header>
     </div>
   );

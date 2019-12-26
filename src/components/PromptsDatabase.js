@@ -3,7 +3,7 @@ const prompts = [
     {"key":0 ,"value":"Man Bun"},
     {"key":1 ,"value":"Mullet"},
     {"key":2 ,"value":"Jersey"},
-    {"key":3 ,"value":"Celtics on TV"},
+    {"key":3 ,"value":"Celtics Game On"},
     {"key":4 ,"value":"Red Sox Hat"},
     {"key":5 ,"value":"Awkward Date"},
     {"key":6 ,"value":"Sports Tattoo"},
@@ -23,10 +23,12 @@ const prompts = [
     {"key":20 ,"value":"Well Drinks < $4.50"},
     {"key":21 ,"value":"News on TV"},
     {"key":22 ,"value":"80s Stadium Rock"},
-    {"key":23 ,"value":"Out of Season Holiday Decor"},
+    {"key":23 ,"value":"Lingering Holiday Decor"},
     {"key":24 ,"value":"Plastic Table Covering"},
-    {"key":25 ,"value":"JFK Framed Photo"},
-    {"key":26 ,"value":"Hunting-themed Game"}
+    {"key":25 ,"value":"Framed JFK Photo"},
+    {"key":26 ,"value":"Hunting-themed Game"},
+    {"key":27 ,"value":"'House White' ordered"},
+    {"key":28 ,"value":"Chipped Glass"}
 ]
 
 
