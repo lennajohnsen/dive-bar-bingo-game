@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dive-bar-bingo-game/precache-manifest.67b0286fa1327da0eb8583760c30afb7.js"
+  "/dive-bar-bingo-game/precache-manifest.2b5dd19bab8671c7e32487981155b3e4.js"
 );
 
 self.addEventListener('message', (event) => {
