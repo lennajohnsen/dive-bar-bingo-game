@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #d2f5f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bar-sign{
+  width:40vh;
+  height:40vh;
+  object-fit: cover;
+  margin-bottom: 3vh;
+}
+
+/* http://thenewcode.com/438/CSS-Border-Image-Explained */
+
+.bingo-board{
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 40vh;
+  height: 40vh;
+  padding: 3%;
+  border-radius: 2%;
+  box-shadow: 5px 5px 2px 1px grey;
+}
+
+.bingo-square{
+  height: 20%;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  border-image: url('./assets/drawn-outline-01.png') 93 92 87 92 stretch;
+  border-width: 6px;
+  border-style: dashed;
+}
+
+.bingo-squaredone{
+  height: 20%;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  border-image: url('./assets/drawn-outline-01.png') 93 92 87 92 stretch;
+  border-width: 6px;
+  border-style: dashed;
+  background-color: lightcoral;
+}
+
+
+.bingo-text{
+  font-size: calc(4px + 2vmin);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  display: inline-block;
+  /* word-break: break-all;  */
+  width: 100%;
+  height: 100%;
+  margin-top: 10;
+}
+
+.script{
+  font-size: calc(12px + 2vmin);
+  font-family: brush-script-std,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+  margin-top: 5vh;
+}
+
