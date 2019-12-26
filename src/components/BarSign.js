@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import _ from 'underscore';
 
-import sign from '../assets/sign-02.png';
+import sign from '../assets/sign-02-02.png';
 import BingoCard from './BingoCard';
 
 import prompts from './PromptsDatabase';
@@ -13,7 +13,8 @@ export default class BarSign extends Component {
         super(props);
         this.handleClick = this.handleClick.bind(this);
         this.state = {
-            value:[],
+            value: [],
+            lit: false,
         } ;
       }
 
@@ -21,7 +22,8 @@ export default class BarSign extends Component {
         const newPromptsKeys = _.shuffle(_.range(prompts.length)).slice(0,16)
         const newPrompts = _.map(newPromptsKeys, function(val){return prompts[val]})
         this.setState({
-            value: newPrompts   
+            value: newPrompts,
+            lit: true   
         })
         // console.log(this.state)
 }
@@ -32,8 +34,8 @@ export default class BarSign extends Component {
 
             <React.Fragment>
 
-            <div className="bar-sign" onClick={this.handleClick}>
-                <img src={sign} alt="sign" className="bar-sign"/>              
+            <div onClick={this.handleClick} className={"bar-sign" + (this.state.lit ? "lit" : "")}>
+                <img src={sign} alt="sign" className={"bar-sign" + (this.state.lit ? "lit" : "")}/>              
             </div>
          
             <BingoCard

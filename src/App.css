@@ -4,6 +4,7 @@
 
 .App-body {
   background-color: #d2f5f2;
+  /* background-color: darkslategrey; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -89,15 +90,23 @@
 }
 
 .bar-sign{
-  width:40vh;
-  height:40vh;
+  width:100%;
+  /* height:40vh; */
   object-fit: cover;
   /* margin-bottom: 3vh; */
+  filter:saturate(10%)
+}
+
+.bar-signlit{
+  filter:saturate(130%);
+  width:100%;
+  object-fit: cover;
 }
 
 /* http://thenewcode.com/438/CSS-Border-Image-Explained */
 
 .bingo-board{
+  background-image: url('./assets/coaster-texture.jpg');
   background-color: beige;
   display: flex;
   flex-wrap: wrap;
@@ -108,7 +117,7 @@
   height: 40vh;
   padding: 3%;
   border-radius: 2%;
-  box-shadow: 5px 5px 2px 1px grey;
+  box-shadow: 5px 5px 2px 1px darkslategrey;
 }
 
 .bingo-square{
@@ -129,7 +138,9 @@
   border-image: url('./assets/drawn-outline-01.png') 93 92 87 92 stretch;
   border-width: 6px;
   border-style: dashed;
-  background-color: lightcoral;
+  background-color: red;
+  filter:saturate(40%);
+  opacity: 80%;
 }
 
 .bingo-squaredone > .bingo-text{
