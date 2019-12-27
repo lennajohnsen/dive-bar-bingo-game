@@ -19,25 +19,37 @@ export default class Intro extends Component {
             <div  className={'modalDialog' + (this.state.visible ? "" : "invisible")} >
                 <div className="modal-content"> 
                     <div className="modal-header">
-                            RULES AND REGULATIONS
+                            ABOUT THIS GAME
                     </div>
 
                     <div className="modal-text">
-                    Lorem ipsum dolor amet plaid vegan cray organic, keffiyeh pug meditation. 
-                    Retro vice man braid bicycle rights vape wolf helvetica +1 crucifix sustainable flexitarian. 
-                    Meh letterpress pickled poke pour-over adaptogen unicorn literally 3 wolf moon kale chips kogi 
-                    stumptown heirloom bushwick. Cliche vegan trust fund, ramps street art banh mi cray raw denim 
-                    semiotics actually craft beer celiac. <br>
-                    
-                    </br><br>
-                    </br> Venmo portland keffiyeh keytar lumbersexual art party subway tile schlitz godard brunch tbh deep 
-                    v taiyaki. Organic migas live-edge keffiyeh kitsch hexagon. Single-origin coffee listicle meditation 
-                    shoreditch hoodie freegan. Glossier ethical pork belly post-ironic try-hard.
+                    First debuted in January 2019 as a R markdown, this dive bar drinking game was intended to be a   
+                    productive procrastination side project for IAP. Now that our coding skills have improved and our horizons
+                    have extended beyond R, this year we've chosen to procrastinate by making it ~fancier~. 
+                    <br>
+                    </br>
+                    <br>
+                    </br> 
+                    We'll be keeping our list of Boston-area dive bars and the 'divey-ness' algorithm to ourselves for now, 
+                    but here you'll find the bingo card generator. 
+                    <br>
+                    </br>
+                    <br>
+                    </br> 
+                    The rules themselves are pretty simple. Select some dive bars, make a route, bring your phone (and keys) (and wallet)
+                    keep this page open in a browser, and check off the Things you witness. First one to get four in a row wins. (Wins what, 
+                    we'll leave to you).
+                    <br>
+                    </br>
+                    <br>
+                    </br>
+                    By pressing the button below you are absolving us of all liability for the poor decisions you make while
+                    adventuring about on a dive bar crawl. And of course, remember to tip your bartenders.
                     </div>
 
                     <div className="modal-footer" onClick = {this.handleClose} >
                         <img src={beerClink} alt="beer" className="beer-icon"/>
-                        Yes, I am over 21
+                        Yes, I am an "adult"
                     </div>
 
                 </div>

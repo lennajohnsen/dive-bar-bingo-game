@@ -218,6 +218,20 @@
     .bar-signlit{
       filter:saturate(100%);
       width:40vh;
+      height: 40vh;
       object-fit: cover;
+    }
+
+    .bingo-text{
+      font-size: calc(4px + 1vmin);
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      color: black;
+      display: inline-block;
+      /* word-break: break-all;  */
+      width: 100%;
+      height: 100%;
+      margin-top: 10;
     }
   }

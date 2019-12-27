@@ -26,7 +26,7 @@ export default class BreweryInfo extends Component {
                 <div className="modal-content">
                     <img src={ESB} alt="ESB //f t m l" className="can-image"/>
                     <div className="footer-text-image" onClick = {this.handleClose}> 
-                        coming IAP 2020 
+                        coming soon ... 
                         <br></br> to return to the game click <strong>here</strong>
                     </div>
                 </div>
