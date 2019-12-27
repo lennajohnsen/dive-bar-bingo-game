@@ -17,7 +17,10 @@ export default class BreweryInfo extends Component {
     render() {
         return (
             <>
-            <p className="footer-text" onClick = {this.handleClose}> 2019 // f t m l  </p>
+            <p className="footer-text" onClick = {this.handleClose}> 
+                [see more]
+                <br></br> 2019 // f t m l 
+            </p>
 
             <div  className={'modalDialog' + (this.state.visible ? "" : "invisible")} > 
                 <div className="modal-content">
