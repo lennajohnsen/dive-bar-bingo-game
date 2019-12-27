@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70fead3d1047e32a5a67b7f959cbd6a9",
+    "revision": "c2fec8133b70f9c0256daea73cc773da",
     "url": "/dive-bar-bingo-game/index.html"
   },
   {
-    "revision": "128d90364a22eed98225",
-    "url": "/dive-bar-bingo-game/static/css/main.118e43d8.chunk.css"
+    "revision": "345673545a17661b3b2a",
+    "url": "/dive-bar-bingo-game/static/css/main.df64bbf4.chunk.css"
   },
   {
     "revision": "c1a57c7d3e4c26370cca",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js.LICENSE"
   },
   {
-    "revision": "128d90364a22eed98225",
-    "url": "/dive-bar-bingo-game/static/js/main.60227f7d.chunk.js"
+    "revision": "345673545a17661b3b2a",
+    "url": "/dive-bar-bingo-game/static/js/main.4b7bfb1e.chunk.js"
   },
   {
     "revision": "8eb0a03f4d950fd214f1",
