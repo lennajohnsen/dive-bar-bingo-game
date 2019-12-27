@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dive-bar-bingo-game/static/css/main.11ae8557.chunk.css",
-    "main.js": "/dive-bar-bingo-game/static/js/main.4b7bfb1e.chunk.js",
-    "main.js.map": "/dive-bar-bingo-game/static/js/main.4b7bfb1e.chunk.js.map",
+    "main.css": "/dive-bar-bingo-game/static/css/main.5a66053f.chunk.css",
+    "main.js": "/dive-bar-bingo-game/static/js/main.b3968752.chunk.js",
+    "main.js.map": "/dive-bar-bingo-game/static/js/main.b3968752.chunk.js.map",
     "runtime-main.js": "/dive-bar-bingo-game/static/js/runtime-main.4828891b.js",
     "runtime-main.js.map": "/dive-bar-bingo-game/static/js/runtime-main.4828891b.js.map",
     "static/js/2.11d05ce4.chunk.js": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js",
     "static/js/2.11d05ce4.chunk.js.map": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js.map",
     "index.html": "/dive-bar-bingo-game/index.html",
-    "precache-manifest.0d05d946e5604ba56dac9d59dcb376f3.js": "/dive-bar-bingo-game/precache-manifest.0d05d946e5604ba56dac9d59dcb376f3.js",
+    "precache-manifest.ad7462b9d6a1a2a3451e39caef0082ed.js": "/dive-bar-bingo-game/precache-manifest.ad7462b9d6a1a2a3451e39caef0082ed.js",
     "service-worker.js": "/dive-bar-bingo-game/service-worker.js",
-    "static/css/main.11ae8557.chunk.css.map": "/dive-bar-bingo-game/static/css/main.11ae8557.chunk.css.map",
+    "static/css/main.5a66053f.chunk.css.map": "/dive-bar-bingo-game/static/css/main.5a66053f.chunk.css.map",
     "static/js/2.11d05ce4.chunk.js.LICENSE": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js.LICENSE",
     "static/media/App.css": "/dive-bar-bingo-game/static/media/drawn-outline-01.f5d147f8.png",
     "static/media/ftml-ESB.png": "/dive-bar-bingo-game/static/media/ftml-ESB.78c9ba01.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.4828891b.js",
     "static/js/2.11d05ce4.chunk.js",
-    "static/css/main.11ae8557.chunk.css",
-    "static/js/main.4b7bfb1e.chunk.js"
+    "static/css/main.5a66053f.chunk.css",
+    "static/js/main.b3968752.chunk.js"
   ]
 }
