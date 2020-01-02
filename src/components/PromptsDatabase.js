@@ -28,7 +28,10 @@ const prompts = [
     {"key":25 ,"value":"Framed JFK Photo"},
     {"key":26 ,"value":"Hunting-themed Game"},
     {"key":27 ,"value":"'House White' ordered"},
-    {"key":28 ,"value":"Chipped Glass"}
+    {"key":28 ,"value":"Chipped Glass"},
+    {"key":29 ,"value":"Larry Bird Photo"},
+    {"key":30 ,"value":"Drink+Leave <30mins"},
+    {"key":31 ,"value":"Bartender Knows Order"}
 ]
 
 
