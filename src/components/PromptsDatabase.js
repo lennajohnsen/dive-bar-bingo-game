@@ -30,8 +30,12 @@ const prompts = [
     {"key":27 ,"value":"'House White' ordered"},
     {"key":28 ,"value":"Chipped Glass"},
     {"key":29 ,"value":"Larry Bird Photo"},
-    {"key":30 ,"value":"Drink+Leave <30mins"},
-    {"key":31 ,"value":"Bartender Knows Order"}
+    {"key":30 ,"value":"Drink+Leave"},
+    {"key":32 ,"value":"Bartender Knows Order"},
+    {"key":33 ,"value":"ATM"},
+    {"key":34 ,"value":"Rat Spotted"},
+    {"key":35 ,"value":"Does Not Have WiFi"},
+    {"key":36 ,"value":"Someone Thrown Out"}
 ]
 
 
