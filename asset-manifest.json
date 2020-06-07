@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/dive-bar-bingo-game/static/css/main.36223b69.chunk.css",
-    "main.js": "/dive-bar-bingo-game/static/js/main.7a3e1b5c.chunk.js",
-    "main.js.map": "/dive-bar-bingo-game/static/js/main.7a3e1b5c.chunk.js.map",
+    "main.css": "/dive-bar-bingo-game/static/css/main.e77d5273.chunk.css",
+    "main.js": "/dive-bar-bingo-game/static/js/main.ef2086a6.chunk.js",
+    "main.js.map": "/dive-bar-bingo-game/static/js/main.ef2086a6.chunk.js.map",
     "runtime-main.js": "/dive-bar-bingo-game/static/js/runtime-main.4828891b.js",
     "runtime-main.js.map": "/dive-bar-bingo-game/static/js/runtime-main.4828891b.js.map",
-    "static/js/2.11d05ce4.chunk.js": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js",
-    "static/js/2.11d05ce4.chunk.js.map": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js.map",
+    "static/js/2.4887ee89.chunk.js": "/dive-bar-bingo-game/static/js/2.4887ee89.chunk.js",
+    "static/js/2.4887ee89.chunk.js.map": "/dive-bar-bingo-game/static/js/2.4887ee89.chunk.js.map",
     "index.html": "/dive-bar-bingo-game/index.html",
-    "precache-manifest.85b68de8bdf836bb5010e040a57429e5.js": "/dive-bar-bingo-game/precache-manifest.85b68de8bdf836bb5010e040a57429e5.js",
+    "precache-manifest.3eb206f95e4661ba94b531599537a55a.js": "/dive-bar-bingo-game/precache-manifest.3eb206f95e4661ba94b531599537a55a.js",
     "service-worker.js": "/dive-bar-bingo-game/service-worker.js",
-    "static/css/main.36223b69.chunk.css.map": "/dive-bar-bingo-game/static/css/main.36223b69.chunk.css.map",
-    "static/js/2.11d05ce4.chunk.js.LICENSE": "/dive-bar-bingo-game/static/js/2.11d05ce4.chunk.js.LICENSE",
+    "static/css/main.e77d5273.chunk.css.map": "/dive-bar-bingo-game/static/css/main.e77d5273.chunk.css.map",
+    "static/js/2.4887ee89.chunk.js.LICENSE": "/dive-bar-bingo-game/static/js/2.4887ee89.chunk.js.LICENSE",
     "static/media/App.css": "/dive-bar-bingo-game/static/media/drawn-outline-01.f5d147f8.png",
-    "static/media/ftml-ESB.png": "/dive-bar-bingo-game/static/media/ftml-ESB.78c9ba01.png",
-    "static/media/sign-02-02.png": "/dive-bar-bingo-game/static/media/sign-02-02.1fd62640.png"
+    "static/media/jojo.jpg": "/dive-bar-bingo-game/static/media/jojo.350b110a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4828891b.js",
-    "static/js/2.11d05ce4.chunk.js",
-    "static/css/main.36223b69.chunk.css",
-    "static/js/main.7a3e1b5c.chunk.js"
+    "static/js/2.4887ee89.chunk.js",
+    "static/css/main.e77d5273.chunk.css",
+    "static/js/main.ef2086a6.chunk.js"
   ]
 }
